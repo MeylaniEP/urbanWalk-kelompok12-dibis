@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+body {
+    margin: 0px;
+  }
+  #headerShop {
+      height: 5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 8vh;
+      background-color: rgba(31, 30, 30, 0.682);
+      transition: 0.3s ease background-color;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: auto;
+    }
+    #headerShop .atas h1{
+        color: crimson;
+    }
+    #headerShop .atas span{
+        color: white;
+    }
+    #headerShop .atas{
+        display: flex;
+        flex: row;
+        justify-content: center;
+        align-items: center;
+        gap: 18rem;
+    }
+    #headerShop .atas input{
+        border-radius: 5px;
+        border: none;
+        width: 30rem;
+        height: 2rem;
+        padding-left: 2em;
+        color: grey;
+    }
+    #headerShop .atas .iconSearch{
+        width: 1em;
+        padding: 0px;
+    }
+    
+    #headerShop .atas .administrasi button{
+        border: none;
+        border-radius: 5px;
+        margin: 0.5em;
+        height: 2.3em;
+        padding: 0px 2em;
+    }
+    
+    #headerShop .atas .administrasi .login{
+        background-color: crimson;
+        color: aliceblue;
+        font-weight: bold;
+        border: black solid 1px;
+    }
+    
+    #headerShop .atas .administrasi .register{
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        border: crimson solid 2px;
+    }
+    #iklan{
+        display: flex;
+        flex: row;
+        margin: 5em 0em 3em 3em;
+    }
+    #iklan .slogan {
+        width: 20em;
+        border-radius: 7px;
+        margin: 0px 1em 0em 1em;
+    
+    }
+    #kategori{
+        margin: 0px 4em 0px 3em;
+    }
+    #kategori .filter{
+        height: 2em;
+        margin: 0.5em;
+        background-color: transparent;
+        border-radius: 10px;
+        border: crimson solid 1px;
+        cursor: pointer;
+    }
+    .filterSepatu{
+        margin: 0px 0em 0.4em 1.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #produk{
+        margin: 3em;
+    }
+    #produk .item {
+        display: flex;
+        flex: row;
+        gap: 1em;
+    }
+    #produk .item .card{
+        padding: 0.3em 0.3em 0.3em 0.3em ;
+        border-radius: 8px;
+        border: black solid 1px;
+    }
+    #produk .item .card p{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 1px;
+    }
+    #produk .item .card h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #produk .item .cardImage {
+        width: 10em;
+        border-radius: 7px;
+        background-color: white;
+    }

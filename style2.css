@@ -218,7 +218,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./images/profile.jpeg);
+	background-image: url(./images/sepatu5.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -669,7 +669,7 @@ input[type=radio] {
   }
 #about .card {
 	position: absolute;
-	width: 60%;
+	width: 100%;
 	height: 100%;
 	left: 0;
 	right: 0;
